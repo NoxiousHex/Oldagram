@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 375px;
+    margin: 0px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #C6C6C6;
+    padding: 15px 15px 8px 15px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 25px 0 10px 15px;
+}
+
+.user-actions {
+    display: flex;
+    padding: 13px 10px;
+}
+
+/* Typesetting */
+
+.poster-loc, .poster-name {
+    margin: 0 0 0 10px;
+}
+
+.poster-name {
+    font-size: 16px;
+}
+
+.poster-loc {
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+
+.likes, .comment {
+    margin: 0 0 10px 0;
+}
+
+.likes {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.comment {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Images */
+
+.website-logo {
+    height: 50px;
+}
+
+.user-avatar {
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-info img {
+    height: 35px;
+    border-radius: 50%;
+}
+
+.post {
+    width: 100%;
+}
+
+.user-actions img {
+    width: 30px;
+    margin-right: 10px;
+}
